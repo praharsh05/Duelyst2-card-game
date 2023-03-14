@@ -1,6 +1,7 @@
-# MSCTeamProject
 
-This is a backend developed for a tactical card game application in Java 
+This is a backend developed for a tactical card game application in Java as part of the MSc Group project at the University of Glasgow
+
+Major Thanks to Saranya, Glenn, Mona and Ruairi for the development and completion of this project.
 
 # Board creation
 
