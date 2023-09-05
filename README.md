@@ -10,11 +10,10 @@ Open the Terminal for Mac and Linux, or cmdPrompt for Widnows.
 ### Mac and Linux
 
 1. Check the java version you have enter the command
-
-```bash
-/usr/libexec/java_home -V
-```
-this command will show the java versions installed on your machine.
+   ```bash
+   /usr/libexec/java_home -V
+   ```
+   this command will show the java versions installed on your machine.
 
 2. if you have a newer version of java together with java 11 then use the following command to switch to the specefic java 11 version. Replace `YOUR_JAVA_VERSION` with your java version
    
@@ -27,6 +26,7 @@ this command will show the java versions installed on your machine.
    ```bash
    sbt run
    ```
+   this command will compile the code and run the server, the game will be available to play on `localhost:9000` on any browser.
 
 5. If you get compilation error or version error then try the following command
    ```bash
@@ -35,6 +35,8 @@ this command will show the java versions installed on your machine.
    and then do step 4.
 
 ## Playing the Game
+
+Once the step 4 of the installation is done, open the link to `localhost:9000` on any browser and wait the game will load. once the game has loaded successfull the you will have 3 cards in your hand and you can summon a unit or spell based on their mana consumption value.
 
 ## Authors
 
