@@ -5,6 +5,35 @@ This project encompassed the development of backend logic for a tactical card ga
 
 This game requires Java 11 to run.
 
+Open the Terminal for Mac and Linux, or cmdPrompt for Widnows.
+
+### Mac and Linux
+
+1. Check the java version you have enter the command
+
+```bash
+/usr/libexec/java_home -V
+```
+this command will show the java versions installed on your machine.
+
+2. if you have a newer version of java together with java 11 then use the following command to switch to the specefic java 11 version. Replace `YOUR_JAVA_VERSION` with your java version
+   
+   ```bash
+   export JAVA_HOME=`/usr/libexec/java_home -v YOUR_JAVA_VERSION`
+   ```
+
+4. Once you have switched to java 11 then run the following command
+
+   ```bash
+   sbt run
+   ```
+
+5. If you get compilation error or version error then try the following command
+   ```bash
+   sbt clean
+   ```
+   and then do step 4.
+
 ## Playing the Game
 
 ## Authors
