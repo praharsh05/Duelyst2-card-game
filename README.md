@@ -1,7 +1,9 @@
 # Duelyst 2
-This is a backend developed for a tactical card game application in Java as part of the MSc Group project at the University of Glasgow
+This project encompassed the development of backend logic for a tactical card game in Java as part of the MSc Group project at the University of Glasgow.
 
 ## Installation
+
+This game requires Java 11 to run.
 
 ## Playing the Game
 
